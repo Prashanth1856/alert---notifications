@@ -1,0 +1,99 @@
+/* Write your CSS here */
+.alert-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    width: 85%;
+    max-width: 1110px;
+  }
+}
+
+.alert-heading {
+  text-align: center;
+  font-size: 24px;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: bold;
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .alert-heading {
+    font-size: 48px;
+  }
+}
+
+.card-icon {
+  height: 70px;
+  min-width: 30px;
+  margin-right: 14px;
+}
+
+.card-data-container {
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-data-container {
+    margin-top: 0px;
+  }
+}
+
+.card-data-title {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .card-data-title {
+    font-size: 24px;
+  }
+}
+
+.card-data-description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .card-data-description {
+    font-size: 20px;
+  }
+}
+
+.success {
+  color: #2dca73;
+}
+
+.error {
+  color: #ff0b37;
+}
+
+.warning {
+  color: #ffb800;
+}
+
+.info {
+  color: #0f81e0;
+}
